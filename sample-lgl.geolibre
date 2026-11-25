@@ -3,17 +3,17 @@
   "name": "Vancouver Island Elevation Map",
   "mapView": {
     "center": [
-      -125.35281033761083,
-      49.447555119220624
+      -124.53562218177046,
+      49.08219705239664
     ],
-    "zoom": 7.568141085296668,
-    "bearing": 0,
-    "pitch": 0,
+    "zoom": 8.663215754660685,
+    "bearing": -23.563084780109985,
+    "pitch": 66.49999999999994,
     "bbox": [
-      -127.74641597712741,
-      48.06371360776018,
-      -122.95920469806981,
-      50.80195670596328
+      -135.0142906169877,
+      47.990825058301326,
+      -123.29268688156299,
+      57.255571757119995
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/dark",
@@ -82,7 +82,7 @@
         "extrusionBase": 0,
         "extrusionBaseProperty": "SRTM41.0_clipped_mean",
         "extrusionBaseScale": 2,
-        "extrusionFloorHeight": 500,
+        "extrusionFloorHeight": 1000,
         "extrusionAdvancedStyleEnabled": false,
         "extrusionColorExpression": "",
         "extrusionHeightExpression": "",
@@ -543,7 +543,7 @@
       "extrusionBase": 0,
       "extrusionBaseProperty": "SRTM41.0_clipped_mean",
       "extrusionBaseScale": 2,
-      "extrusionFloorHeight": 500,
+      "extrusionFloorHeight": 1000,
       "extrusionAdvancedStyleEnabled": false,
       "extrusionColorExpression": "",
       "extrusionHeightExpression": "",
@@ -803,7 +803,7 @@
       "ellipsoidId": "earth",
       "scaleUnit": "metric",
       "showPointerElevation": false,
-      "terrainEnabled": true,
+      "terrainEnabled": false,
       "coordinateFormat": "dd",
       "zoomToNewLayers": true,
       "mapboxStyleUrl": "mapbox://styles/mapbox/standard",
