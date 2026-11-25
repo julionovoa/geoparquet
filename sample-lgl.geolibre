@@ -3,17 +3,17 @@
   "name": "Vancouver Island Elevation Map",
   "mapView": {
     "center": [
-      -124.68120841577468,
-      49.051449956637676
+      -125.35281033761083,
+      49.447555119220624
     ],
-    "zoom": 8.072510659467723,
-    "bearing": -15.956264193734569,
-    "pitch": 58.49882664420226,
+    "zoom": 7.568141085296668,
+    "bearing": 0,
+    "pitch": 0,
     "bbox": [
-      -131.21687279571222,
-      47.8046807379775,
-      -122.63671130054331,
-      54.573975346498294
+      -127.74641597712741,
+      48.06371360776018,
+      -122.95920469806981,
+      50.80195670596328
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/dark",
@@ -803,7 +803,7 @@
       "ellipsoidId": "earth",
       "scaleUnit": "metric",
       "showPointerElevation": false,
-      "terrainEnabled": false,
+      "terrainEnabled": true,
       "coordinateFormat": "dd",
       "zoomToNewLayers": true,
       "mapboxStyleUrl": "mapbox://styles/mapbox/standard",
@@ -819,7 +819,6 @@
   "plugins": {
     "manifestUrls": [],
     "activePluginIds": [
-      "maplibre-layer-control",
       "maplibre-atmosphere-effects",
       "maplibre-deckgl-viz"
     ],
@@ -860,7 +859,71 @@
     "title": "Legend",
     "groupByLayer": true,
     "order": [],
-    "overrides": {}
+    "overrides": {},
+    "customEntries": {
+      "968ae378-5bca-4dd2-a5fd-f317e7ec6bdc": {
+        "title": "Cities",
+        "items": [
+          {
+            "label": "Has a CGNDB name record",
+            "color": "#000080",
+            "shape": "circle"
+          },
+          {
+            "label": "Designated Place name",
+            "color": "#800000",
+            "shape": "circle"
+          }
+        ]
+      },
+      "d7593b15-9937-48c4-8744-b2485bf524cf": {
+        "title": "Elevation (m)",
+        "items": [
+          {
+            "label": "0 – 134.88",
+            "color": "#440154"
+          },
+          {
+            "label": "134.88 – 261.64",
+            "color": "#3e2367"
+          },
+          {
+            "label": "261.64 – 390.5",
+            "color": "#37467b"
+          },
+          {
+            "label": "390.5 – 522.5",
+            "color": "#31688e"
+          },
+          {
+            "label": "522.5 – 658.25",
+            "color": "#328287"
+          },
+          {
+            "label": "658.25 – 800.64",
+            "color": "#349d80"
+          },
+          {
+            "label": "800.64 – 958",
+            "color": "#35b779"
+          },
+          {
+            "label": "958 – 1,139.27",
+            "color": "#78c75d"
+          },
+          {
+            "label": "1,139.27 – 1,372.27",
+            "color": "#bad741"
+          },
+          {
+            "label": "≥ 1,372.27",
+            "color": "#fde725"
+          }
+        ]
+      }
+    },
+    "panelVisible": true,
+    "panelCollapsed": true
   },
   "metadata": {}
 }
